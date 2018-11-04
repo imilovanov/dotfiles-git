@@ -1,0 +1,45 @@
+[user]
+	email = milovanov.ivan.94@gmail.com
+	name = Ivan Milovanov
+
+[url "https://bitbucket.org/"]
+	insteadOf = bb:
+
+[url "https://github.com/"]
+	insteadOf = gh:
+
+[url "https://gist.github.com/"]
+	insteadOf = gist:
+
+[url "https://github.com/imilovanov/"]
+	insteadOf = mygh:
+[alias]
+	cm = commit -m
+	c  = commit
+	ca = commit -a
+	#################
+	ps  = push
+	psf = push -f
+	psu = push -u
+	pst = push --tags
+	#################
+	pso  = push origin
+	psao = push --all origin
+	psfo = push -f origin
+	psuo = push -u origin
+	#################
+	r   = remote
+	ra  = remote add	
+	rr  = remote rm
+	rv  = remote -v
+	rn  = remote rename
+	rp  = remote prune
+	rs  = remote show
+	rao = remote add origin
+	rau = remote add upstream
+	rro = remote remove origin
+	rru = remote remove upstream
+	rso = remote show origin
+	rsu = remote show upstream
+	rpo = remote prune origin
+	rpu = remote prune upstream

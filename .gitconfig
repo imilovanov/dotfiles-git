@@ -27,6 +27,7 @@
 	psao = push --all origin
 	psfo = push -f origin
 	psuo = push -u origin
+	psuom = push -u origin master
 	#################
 	r   = remote
 	ra  = remote add	
